@@ -84,6 +84,8 @@ body {
 
 .band-a {
   background: #69D2E7;
+  border-width: 2px;
+  border-color: #3a4043;
 }
 
 .band-b {
