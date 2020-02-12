@@ -75,6 +75,12 @@ body {
   padding: 0 3em;
 }
 
+.band-container h3 {
+  color: #fff;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
 .band-inner {
   display: table-cell;
   vertical-align: middle;
@@ -85,6 +91,12 @@ body {
   background: #69D2E7;
   border-width: 2px;
   border-color: #fff;
+}
+
+.band-a a {
+  color: #fff;
+  margin: 0;
+  padding: 0 0 10px;
 }
 
 .band-b {
