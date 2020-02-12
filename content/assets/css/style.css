@@ -12,6 +12,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.button-group a {
+  color: #fff;
+}
+
 .l-site {
   margin: 0 auto;
   max-width: 1600px;
@@ -91,12 +95,6 @@ body {
   background: #69D2E7;
   border-width: 2px;
   border-color: #fff;
-}
-
-.band-a a {
-  color: #fff;
-  margin: 0;
-  padding: 0 0 10px;
 }
 
 .band-b {
