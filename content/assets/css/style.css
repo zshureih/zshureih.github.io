@@ -69,7 +69,6 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  min-height: 85vh;
   max-width: 960px;
   display: table;
   position: relative;
