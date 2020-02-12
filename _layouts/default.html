@@ -12,48 +12,7 @@
     
     <!-- Page CSS-->
     <link rel="stylesheet" href="/content/assets/css/style.css">
-    
-    <title>{{page.title}}</title>
-</head>
 
-<body>
-    <div class="band">
-        <h1>Zeyad's Source Control</h1>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light band-a">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Research" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Research
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown-Research">
-                    <a class="dropdown-item" href="/content/Research/autonomousVehicles.html">Autonomous Vehicles</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/content/Research/ROS.html">ROS</a>
-                </div>
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Education" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Education
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown-Education">
-                    <a class="dropdown-item" href="/content/Education/classList.html">Classes</a>
-                </div>
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Personal" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Personal
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown-Personal">
-                    <a class="dropdown-item" href="/content/Personal/resumePage.html">Resume/CV</a>
-                </div>
-            </div>
-        </div>
-    </nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -65,9 +24,66 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <section>
+    
+    <title>{{page.title}}</title>
+</head>
+
+<body>
+    <div class="band">
+        <div class="band-container">
+            <div class="band-inner">
+                <h1>Zeyad's Source Control</h1>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light band-a">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                
+                <div class="btn-group">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownResearch" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Research
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownResearch">
+                        <a class="dropdown-item" href="/content/Research/autonomousVehicles.html">Autonomous Vehicles</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/content/Research/ROS.html">ROS</a>
+                    </div>
+                </div>
+                
+                <div class="btn-group">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEducation" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Education
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownEducation">
+                        <a class="dropdown-item" href="/content/Education/classList.html">Classes</a>
+                    </div>
+                </div>
+                
+                <div class="btn-group">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPersonal" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Personal
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownPersonal">
+                        <a class="dropdown-item" href="/content/Personal/resumePage.html">Resume/CV</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <div class="band">
         {{ content }}
-    </section>
+    </div>
 </body>
 
 </html>
