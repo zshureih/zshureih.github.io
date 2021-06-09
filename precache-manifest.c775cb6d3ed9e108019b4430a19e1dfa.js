@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dae91b5786a257f109dc020c087eb7d1",
+    "revision": "f6031f8356cd02f5dc8e83ad65756dbe",
     "url": "/index.html"
   },
   {
-    "revision": "a214b601ba530a7d4b98",
+    "revision": "e2cded82a44207a59630",
     "url": "/static/css/main.9b3ac610.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.760bb727.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a214b601ba530a7d4b98",
-    "url": "/static/js/main.c1338df2.chunk.js"
+    "revision": "e2cded82a44207a59630",
+    "url": "/static/js/main.19cc612c.chunk.js"
   },
   {
     "revision": "529e418b6dddfe22bf90",
@@ -76,11 +76,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.76d12297.svg"
   },
   {
+    "revision": "6a733640f7e17c72a175c274ec5ca65e",
+    "url": "/static/media/thesis_poster.6a733640.png"
+  },
+  {
     "revision": "a622fc5dd8adcdd27ea42218385013b4",
     "url": "/static/media/video-placeholder.a622fc5d.jpg"
   },
   {
     "revision": "d44bc21859487cf6acc9fa29e52beb2a",
     "url": "/static/media/viva.d44bc218.png"
+  },
+  {
+    "revision": "70ca6e65bac15211d96de6275affdb04",
+    "url": "/static/media/xai.70ca6e65.png"
   }
 ]);
