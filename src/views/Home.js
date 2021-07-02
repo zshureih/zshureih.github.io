@@ -6,6 +6,8 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import TextCards from '../components/sections/TextCards';
 import Cta from '../components/sections/Cta';
 
+const pdf_link = "zeyadShureihResume.pdf"
+
 const Home = () => {
 
   return (

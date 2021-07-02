@@ -65,16 +65,22 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Master's of Computer Science Student at Oregon State University. Graduating in Spring 2022 with a focus on <span className="text-color-primary">Computer Vision</span>, 
+                Master's Student in Computer Science at Oregon State University. Graduating in Spring 2022 with a focus on <span className="text-color-primary">Computer Vision</span>, 
                 <span className="text-color-primary"> Interactive Robotics</span>, and <span className="text-color-primary">Deep Learning</span>.
                 <br></br>
                 Seeking full time employment beginning in June 2022.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://github.com/zshureih/">
+                  <Button tag="a" color="primary" wideMobile href="https://www.linkedin.com/in/zeyad-shureih-122541122/?lipi=urn%3Ali%3Apage%3Aprofile_view_index_index%3BVDcyu%2FVeSBe6MLPIEukoQw%3D%3D">
+                    View on LinkedIn
+                  </Button>
+                  <Button tag="a" color="high" wideMobile href="https://github.com/zshureih/">
                     View on Github
-                    </Button>
+                  </Button>
+                  <Button tag="a" color="primary" wideMobile href="../../assets/documents/zeyadShureihResume.pdf" download>
+                    View Resume
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>

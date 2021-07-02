@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import SplitTile from '../sections/SplitTile'
+import SplitTile from '../elements/SplitTile'
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -58,7 +58,7 @@ const FeaturesTiles = ({
   const itemTwo = {
     icon: "feature-tile-icon-02.svg",
     title: "Deep Learning and Natural Language Processing",
-    text: "Solutions to Natural Language Processing problems with LSTM, attention, encoders, and transformers"
+    text: "Solutions to Natural Language Processing problems with LSTM, attention, encoders, and transformers in PyTorch"
   }
 
   const itemThree = {
@@ -68,15 +68,21 @@ const FeaturesTiles = ({
   }
 
   const itemFour = {
-    icon: "feature-tile-icon-03.svg",
+    icon: "feature-tile-icon-04.svg",
     title: "Intelligent Robotics",
-    text: "Probabilistic robotics, Robotics Operating System (ROS), and SLAM algorithms"
+    text: "Probabilistic robotics, Robotics Operating System (ROS) for Python, and SLAM algorithms"
   }
 
   const itemFive = {
-    icon: "feature-tile-icon-05.svg",
+    icon: "feature-tile-icon-04.svg",
     title: "Artificial Intelligence",
     text: "Game-search algorithms, adversarial tree search, bayesian logistic regression"
+  }
+
+  const itemSix = {
+    icon: "feature-tile-icon-06.svg",
+    title: "Advanced Web Development",
+    text: "Front-end development with React. Webhooks and API integration"
   }
 
   return (
@@ -103,6 +109,9 @@ const FeaturesTiles = ({
             </SplitTile>
 
             <SplitTile content={itemFive}>
+            </SplitTile>
+
+            <SplitTile content={itemSix}>
             </SplitTile>
 
           </div>
