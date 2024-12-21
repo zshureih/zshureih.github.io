@@ -65,14 +65,13 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Master's Student in Computer Science at Oregon State University. Graduating in Spring 2022 with a focus on <span className="text-color-primary">Computer Vision</span>, 
-                <span className="text-color-primary"> Interactive Robotics</span>, and <span className="text-color-primary">Deep Learning</span>.
+                Machine Learning Engineer with 3 years of industry experience in  <span className="text-color-primary">Computer Vision</span> and <span className="text-color-primary">Deep Learning</span>.
                 <br></br>
-                Seeking full time employment beginning in June 2022.
+                Always open to new opportunities, experiences and collaborations. Feel free to reach out!
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://www.linkedin.com/in/zeyad-shureih-122541122/?lipi=urn%3Ali%3Apage%3Aprofile_view_index_index%3BVDcyu%2FVeSBe6MLPIEukoQw%3D%3D">
+                  <Button tag="a" color="primary" wideMobile href="https://www.linkedin.com/in/zshureih/">
                     View on LinkedIn
                   </Button>
                   <Button tag="a" color="high" wideMobile href="https://github.com/zshureih/">

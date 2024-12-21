@@ -8,10 +8,14 @@ const ScrollReveal = React.forwardRef((props, ref) => {
   const [revealEl, setRevealel] = useState([]);
 
   const checkComplete = () => {
+    console.log(revealEl.length, document.querySelectorAll('[class*=reveal-].is-revealed').length)
     return revealEl.length <= document.querySelectorAll('[class*=reveal-].is-revealed').length;
   };
 
   const elementIsVisible = (el, offset) => {
+    console.log(el)
+    console.log(el.getBoundingClientRect())
+    console.log(el.getBoundingClientRect().top, viewportHeight, offset)
     return (el.getBoundingClientRect().top <= viewportHeight - offset);
   };
 

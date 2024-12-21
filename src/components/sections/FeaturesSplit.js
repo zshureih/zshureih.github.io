@@ -52,7 +52,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Research Projects',
-    paragraph: 'In my time at Oregon State University I have been lucky enough to work in quite a few different research groups. Scroll to read about my contributions to various publications, and some passion projects.'
+    paragraph: 'In my time at Oregon State University I was lucky enough to work in quite a few different research groups. Scroll to read about my contributions to various publications, and some passion projects.'
   };
 
   const itemOne = {

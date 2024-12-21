@@ -1,7 +1,4 @@
 import React from 'react';
-import Image from './Image';
-import classNames from 'classnames';
-
 
 const ExperienceCard = ({
     className,
@@ -18,10 +15,9 @@ const ExperienceCard = ({
     github,
     ...props
 }) => {
-    console.log(props)
     return (
-        <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-            <div className="tiles-item-inner">
+        <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            <div className="tiles-item-inner ">
                 <div className="testimonial-item-footer text-xs mt-16 mb-0">
                     <span className="testimonial-item-name text-color-high">{props.content.role}</span>
                     <br></br>
