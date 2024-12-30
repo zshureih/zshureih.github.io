@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.78c9be89.chunk.css",
-    "main.js": "/static/js/main.01bc73e0.chunk.js",
-    "main.js.map": "/static/js/main.01bc73e0.chunk.js.map",
+    "main.css": "/static/css/main.ce738bf7.chunk.css",
+    "main.js": "/static/js/main.9a007e5f.chunk.js",
+    "main.js.map": "/static/js/main.9a007e5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.40044458.js",
     "runtime-main.js.map": "/static/js/runtime-main.40044458.js.map",
     "static/js/2.c1136e41.chunk.js": "/static/js/2.c1136e41.chunk.js",
     "static/js/2.c1136e41.chunk.js.map": "/static/js/2.c1136e41.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8889de6f65f6d18c5d54b7736a86142f.js": "/precache-manifest.8889de6f65f6d18c5d54b7736a86142f.js",
+    "precache-manifest.f2459a87d42515e6e333a5c24adf2c5f.js": "/precache-manifest.f2459a87d42515e6e333a5c24adf2c5f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.78c9be89.chunk.css.map": "/static/css/main.78c9be89.chunk.css.map",
+    "static/css/main.ce738bf7.chunk.css.map": "/static/css/main.ce738bf7.chunk.css.map",
     "static/js/2.c1136e41.chunk.js.LICENSE.txt": "/static/js/2.c1136e41.chunk.js.LICENSE.txt",
+    "static/media/J._Cole_GOMD_cosine_final_video_30fps.mp4": "/static/media/J._Cole_GOMD_cosine_final_video_30fps.20627cc3.mp4",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
     "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
     "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.bd39f304.svg",
@@ -27,12 +28,13 @@
     "static/media/thesis_poster.png": "/static/media/thesis_poster.6a733640.png",
     "static/media/video-placeholder.jpg": "/static/media/video-placeholder.a622fc5d.jpg",
     "static/media/viva.png": "/static/media/viva.d44bc218.png",
-    "static/media/xai.png": "/static/media/xai.70ca6e65.png"
+    "static/media/xai.png": "/static/media/xai.70ca6e65.png",
+    "static/media/zeyadShureihResume.pdf": "/static/media/zeyadShureihResume.506d2b79.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.40044458.js",
     "static/js/2.c1136e41.chunk.js",
-    "static/css/main.78c9be89.chunk.css",
-    "static/js/main.01bc73e0.chunk.js"
+    "static/css/main.ce738bf7.chunk.css",
+    "static/js/main.9a007e5f.chunk.js"
   ]
 }
