@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../elements/Image';
 import classNames from 'classnames';
 
+const images = import.meta.glob('../../assets/images/*', { eager: true, import: 'default' });
 
 const SplitItem = ({
     className,
@@ -17,11 +18,10 @@ const SplitItem = ({
     imageFill,
     ...props
 }) => {
-    console.log(props)
-    const images = props.content.image.map((image) => 
+    const itemImages = props.content.image.map((image) =>
         <div key={image}>
             <Image
-                src={require('./../../assets/images/' + image)}
+                src={images[`../../assets/images/${image}`]}
                 alt="image"
                 width={528}
                 height={396} />
@@ -36,9 +36,12 @@ const SplitItem = ({
                     {props.content.title}
                   </div>
                 <h3 className="mt-0 mb-12">
-                    <a href={props.content.titleLink}>{props.content.name}</a>
+                    {props.content.titleLink ?
+                        <a href={props.content.titleLink}>{props.content.name}</a> :
+                        props.content.name}
                 </h3>
-                <p className="m-0 text-xxs text-color-primary">Faculty Advisors: <span className="text-color-high">{props.content.faculty}</span></p>
+                {props.content.faculty &&
+                    <p className="m-0 text-xxs text-color-primary">Faculty Advisors: <span className="text-color-high">{props.content.faculty}</span></p>}
                 <br></br>
                 <p className="m-0">
                     {props.content.description}
@@ -55,7 +58,7 @@ const SplitItem = ({
                     imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {images}
+                {itemImages}
             </div>
         </div>
     )

@@ -1,18 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history'
+import { it } from 'vitest';
 import App from './App';
 
 const history = createMemoryHistory();
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(
+  const root = createRoot(div);
+  root.render(
     <Router history={history}>
       <App />
-    </Router>,
-    div
+    </Router>
   );
-  ReactDOM.unmountComponentAtNode(div);
+  root.unmount();
 });
