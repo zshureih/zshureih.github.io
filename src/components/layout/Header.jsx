@@ -110,6 +110,9 @@ const Header = ({
                     <li>
                       <Link to="/#Classes" onClick={closeMenu}>Classes</Link>
                     </li>
+                    <li>
+                      <Link to="/mova" onClick={closeMenu}>MOVA</Link>
+                    </li>
                   </ul>
                 </div>
               </nav>

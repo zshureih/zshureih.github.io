@@ -9,6 +9,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views
 import Home from './views/Home';
+import Mova from './views/Mova';
 
 // Initialize Google Analytics (GA4 measurement ID, e.g. G-XXXXXXX)
 if (import.meta.env.VITE_GA_MEASUREMENT_ID) {
@@ -38,6 +39,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/mova" component={Mova} layout={LayoutDefault} />
         </Switch>
       )} />
   );
