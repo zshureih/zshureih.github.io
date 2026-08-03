@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Machine Learning Engineer with 3 years of industry experience in  <span className="text-color-primary">Computer Vision</span> and <span className="text-color-primary">Deep Learning</span>.
+                Machine Learning Engineer with 4+ years of industry experience in  <span className="text-color-primary">Computer Vision</span> and <span className="text-color-primary">Deep Learning</span>.
                 <br></br>
                 Always open to new opportunities, experiences and collaborations. Feel free to reach out!
                 </p>

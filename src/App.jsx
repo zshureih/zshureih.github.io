@@ -2,20 +2,21 @@ import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
 
-// Views 
+// Views
 import Home from './views/Home';
 
-// Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+// Initialize Google Analytics (GA4 measurement ID, e.g. G-XXXXXXX)
+if (import.meta.env.VITE_GA_MEASUREMENT_ID) {
+  ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID);
+}
 
 const trackPage = page => {
-  ReactGA.set({ page });
-  ReactGA.pageview(page);
+  ReactGA.send({ hitType: 'pageview', page });
 };
 
 const App = () => {

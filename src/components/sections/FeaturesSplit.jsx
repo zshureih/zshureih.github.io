@@ -52,7 +52,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Research Projects',
-    paragraph: 'In my time at Oregon State University I was lucky enough to work in quite a few different research groups. Scroll to read about my contributions to various publications, and some passion projects.'
+    paragraph: 'In my time at Oregon State University I was lucky enough to work in quite a few different research groups. Scroll to read about my contributions to various publications, plus some passion projects since.'
   };
 
   const itemOne = {
@@ -85,6 +85,14 @@ const FeaturesSplit = ({
     keywords: "UI Design, User Session Logging, Node.js, Google Cloud Services, Electron"
   }
 
+  const itemFour = {
+    title: "Personal Project",
+    name: "Self-Hosted, AI-Managed Homelab",
+    description: "Designed and maintain a self-hosted Unraid server running a Docker Compose media and automation stack. Built custom Model Context Protocol (MCP) servers exposing the Docker Engine and Unraid's management API to an LLM agent, enabling natural-language infrastructure management: deploying and diagnosing containers, and automating routine maintenance.",
+    image: [],
+    keywords: "Docker, Unraid, Model Context Protocol (MCP), LLM Agents, Self-Hosting, Infrastructure Automation"
+  }
+
   return (
     <section
       {...props}
@@ -105,6 +113,10 @@ const FeaturesSplit = ({
 
             {/* xai */}
             <SplitItem content={itemThree}>
+            </SplitItem>
+
+            {/* homelab */}
+            <SplitItem content={itemFour}>
             </SplitItem>
 
           </div>

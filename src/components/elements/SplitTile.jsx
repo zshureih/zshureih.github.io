@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../elements/Image';
 import classNames from 'classnames';
 
+const images = import.meta.glob('../../assets/images/*', { eager: true, import: 'default' });
 
 const SplitTile = ({
     className,
@@ -17,14 +18,13 @@ const SplitTile = ({
     imageFill,
     ...props
 }) => {
-    console.log(props)
     return (
         <div className="tiles-item reveal-from-bottom">
             <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                         <Image
-                            src={require('./../../assets/images/' + props.content.icon)}
+                            src={images[`../../assets/images/${props.content.icon}`]}
                             alt=""
                             width={64}
                             height={64} />

@@ -1,11 +1,21 @@
 const experiences = [
     {
+        text: "Own the evaluation pipeline for a computer vision captioning system, taking it from development through general availability. \
+            Lead offline evaluation dataset development for face matching and human detection models, including few-shot and zero-shot approaches, and directed the labeling of 90k+ synthetic face images. \
+            Maintain and extend a shared data platform used by multiple computer vision teams, building tooling to convert and validate large third-party annotation deliverables for detection and re-identification models. \
+            Modernized legacy ALPR evaluation pipelines and helped define data provenance and traceability practices for the team's Azure-based ML workspace.",
+        role: "Machine Learning Engineer II",
+        year: "2025 - Present",
+        company: "Axon",
+        keywords: "Python, PyTorch, Computer Vision, Data Platform Engineering, Azure, Face Matching, ALPR"
+    },
+    {
         text: "Designed, implemented and maintained an experiment cataloging service attached to a PostgresQL DB that is used to reproduce training results and facilitate active learning. \
             Collaborated with teammates in and outside the U.S.to deploy and verify ML models running both on the cloud and on edge devices. \
             Modified Yolo architecture to support outputting and learning from embeddings, custom class weighting, and determination of model uncertainty. \
             Presented experimental results to clients during POCs, communicating model performance and trade - offs to secure new contracts. ",
         role: "Machine Learning Engineer",
-        year: "2023 - Present",
+        year: "2023 - 2025",
         company: "Buzz Solutions Inc.",
         keywords: "Python, Pytorch, Yolo, PostgresQL"
     },
@@ -23,7 +33,7 @@ const experiences = [
         text: "Developed intelligent agents to solve complicated computer vision, physical reasoning, and interactive robotics problems to be presented to \
             and evaluated by DARPA scientists. Delivered a top scoring physical hypothesis generator that recreates observed objects \
             in a physics engine to predict object dynamics.",
-        role: "Gratuate Research Assistant: AI Software Engineer",
+        role: "Graduate Research Assistant: AI Software Engineer",
         year: "2021 - 2022",
         company: "Oregon State University Machine Common Sense Lab",
         keywords: "PyBullet, OpenCV, Tensorflow, Linux"
