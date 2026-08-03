@@ -25,6 +25,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          VITE_MOVA_API_URL: ${{ vars.VITE_MOVA_API_URL }}
 
       - uses: peaceiris/actions-gh-pages@v4
         with:
